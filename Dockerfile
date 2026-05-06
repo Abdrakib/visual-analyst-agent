@@ -1,5 +1,5 @@
-# Visual Analyst Agent v2
-FROM python:3.13.5-slim
+# Visual Analyst Agent
+FROM python:3.11-slim
 
 WORKDIR /app
 
