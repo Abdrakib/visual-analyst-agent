@@ -8,7 +8,7 @@ app_port: 7860
 tags:
 - streamlit
 pinned: false
-short_description: AI-powered visual data analyst for charts, tables, and dashboards — trend analysis, data extraction, and interactive insights with Gemini.
+short_description: Analyze charts & dashboards with Gemini AI.
 license: mit
 ---
 
