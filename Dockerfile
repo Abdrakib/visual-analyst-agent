@@ -1,3 +1,4 @@
+# Visual Analyst Agent v2
 FROM python:3.13.5-slim
 
 WORKDIR /app
