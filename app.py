@@ -494,11 +494,13 @@ if st.session_state.parsed:
             st.image(st.session_state.image_bytes, use_container_width=True)
             st.markdown("</div>", unsafe_allow_html=True)
         with col_analysis:
-            st.markdown("<div class='content-card'>", unsafe_allow_html=True)
-            st.markdown("<div class='card-label'>Trend analysis</div>",
-                unsafe_allow_html=True)
-            st.write(parsed['analysis'])
-            st.markdown("</div>", unsafe_allow_html=True)
+            st.markdown(f"""
+            <div class='content-card'>
+                <div class='card-label'>Trend analysis</div>
+                <div style='font-size:13px;color:#c8c4e0;line-height:1.8;'>
+                    {parsed['analysis']}
+                </div>
+            </div>""", unsafe_allow_html=True)
 
         if parsed["parse_error"]:
             st.warning(f"Note: {parsed['parse_error']}")
