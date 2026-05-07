@@ -19,6 +19,8 @@ license: mit
 [![Gemini](https://img.shields.io/badge/Google-Gemini%202.5%20Flash-4285F4?logo=google&logoColor=white)](https://ai.google.dev/)
 [![Plotly](https://img.shields.io/badge/Plotly-Interactive%20Charts-3F4F75?logo=plotly&logoColor=white)](https://plotly.com/python/)
 
+**Live demo:** [Visual Analyst Agent on Hugging Face](https://huggingface.co/spaces/Abdourakib/visual-analyst-agent)
+
 Visual Analyst Agent is an AI-powered Streamlit application that analyzes uploaded chart, table, and dashboard images, identifies the visual type, extracts structured data, produces plain-English business insights, redraws an interactive visualization, supports follow-up Q&A on the same image, and generates a shareable HTML report.
 
 ## Features
